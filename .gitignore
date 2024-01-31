@@ -16,5 +16,6 @@
 !src/
 !src/**
 
-dist
+dist/
 dist/**
+dist/index.html
