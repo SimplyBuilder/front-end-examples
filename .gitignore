@@ -15,3 +15,6 @@
 
 !src/
 !src/**
+
+dist
+dist/**
