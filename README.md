@@ -1,2 +1,1 @@
-# front-end-examples
-front-end design examples
+https://simplybuilder.github.io/front-end-examples/
