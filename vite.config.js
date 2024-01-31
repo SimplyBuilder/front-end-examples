@@ -6,7 +6,7 @@ import path from 'node:path';
 export default defineConfig({
     root: './src',
     build: {
-        manifest: true,
+        manifest: false,
         outDir: '../dist',
     },
     css: {
