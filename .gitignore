@@ -1,0 +1,11 @@
+*
+
+!.gitignore
+
+!README.md
+!LICENSE
+!AUTHORS
+
+!package.json
+!postcss.config.js
+!vite.config.js
