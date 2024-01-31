@@ -1,0 +1,22 @@
+{
+  "name": "simplybuilder-front-end-examples",
+  "description": "SimplyBuilder - Front-End Examples",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29",
+    "sass": "^1.66.1",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+
+  }
+}
