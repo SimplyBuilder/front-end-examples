@@ -1,0 +1,637 @@
+[
+  {
+    "element": "section",
+    "attr": {
+      "class": "fluid-flex-container flex-rows toolbar-container"
+    },
+    "children": [
+      {
+        "element": "header",
+        "attr": {
+          "class": "fluid-flex-container flex-rows component-container"
+        },
+        "children": [
+          {
+            "element": "div",
+            "attr": {
+              "class": "fluid-flex-container flex-rows search-container"
+            },
+            "children": [
+              {
+                "type": "svg",
+                "element": "svg",
+                "attr": {
+                  "class": "search-logo"
+                },
+                "attrNS": {
+                  "viewBox": "0 0 24 24"
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "element": "path",
+                    "attr": {
+                      "d": "M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"
+                    }
+                  }
+                ]
+              },
+              {
+                "element": "section",
+                "attr": {
+                  "class": "search-input-container"
+                },
+                "children": [
+                  {
+                    "element": "input",
+                    "attr": {
+                      "class": "fluid-flex-container search-input",
+                      "placeholder": "Pesquisar"
+                    }
+                  },
+                  {
+                    "type": "svg",
+                    "element": "svg",
+                    "attr": {
+                      "class": "search-icon"
+                    },
+                    "attrNS": {
+                      "viewBox": "0 0 16 15.598984"
+                    },
+                    "children": [
+                      {
+                        "type": "svg",
+                        "element": "path",
+                        "attr": {
+                          "d": "M6.509 0h.002a6.49 6.49 0 0 1 4.601 1.908 6.489 6.489 0 0 1 1.905 4.597v.009a6.502 6.502 0 0 1-.452 2.383v.001a6.512 6.512 0 0 1-.722 1.342l3.786 3.404.003.002.02.019.002.001a1.12 1.12 0 0 1 .087 1.53l-.002.002-.022.027-.005.004-.019.021-.002.003c-.204.214-.476.33-.753.344a1.12 1.12 0 0 1-.777-.257l-.002-.002-.027-.022-.003-.003-3.874-3.482a6.464 6.464 0 0 1-.846.506 6.48 6.48 0 0 1-2.9.68h-.002a6.49 6.49 0 0 1-4.601-1.907A6.488 6.488 0 0 1 0 6.513v-.006a6.49 6.49 0 0 1 1.908-4.602A6.49 6.49 0 0 1 6.505.001V0Zm.002 1.46h-.006a5.035 5.035 0 0 0-3.566 1.479 5.034 5.034 0 0 0-1.48 3.568h.002v.006H1.46a5.03 5.03 0 0 0 1.479 3.566 5.033 5.033 0 0 0 3.568 1.479v-.001h.006a5.033 5.033 0 0 0 3.566-1.478 5.033 5.033 0 0 0 1.479-3.568h-.001v-.006a5.035 5.035 0 0 0-1.478-3.566A5.033 5.033 0 0 0 6.51 1.46Z"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "element": "nav",
+            "attr": {
+              "class": "fluid-flex-container flex-rows menu-container"
+            },
+            "children": [
+              {
+                "element": "ul",
+                "attr": {
+                  "class": "fluid-flex-container flex-rows menu-items-container",
+                  "role": "list"
+                },
+                "children": [
+                  {
+                    "element": "li",
+                    "attr": {
+                      "class": "menu-item",
+                      "role": "list"
+                    },
+                    "children": [
+                      {
+                        "type": "svg",
+                        "element": "svg",
+                        "attr": {
+                          "class": "home-icon"
+                        },
+                        "attrNS": {
+                          "viewBox": "0 0 24 24"
+                        },
+                        "children": [
+                          {
+                            "type": "svg",
+                            "element": "path",
+                            "attr": {
+                              "d": "M23 9v2h-2v7a3 3 0 01-3 3h-4v-6h-4v6H6a3 3 0 01-3-3v-7H1V9l11-7z"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "element": "span",
+                        "attr": {
+                          "class": "text"
+                        },
+                        "text": "Home"
+                      }
+                    ]
+                  },
+                  {
+                    "element": "li",
+                    "attr": {
+                      "class": "menu-item",
+                      "role": "list"
+                    },
+                    "children": [
+                      {
+                        "type": "svg",
+                        "element": "svg",
+                        "attr": {
+                          "class": "network-icon"
+                        },
+                        "attrNS": {
+                          "viewBox": "0 0 24 24"
+                        },
+                        "children": [
+                          {
+                            "type": "svg",
+                            "element": "path",
+                            "attr": {
+                              "d": "M12 16v6H3v-6a3 3 0 013-3h3a3 3 0 013 3zm5.5-3A3.5 3.5 0 1014 9.5a3.5 3.5 0 003.5 3.5zm1 2h-2a2.5 2.5 0 00-2.5 2.5V22h7v-4.5a2.5 2.5 0 00-2.5-2.5zM7.5 2A4.5 4.5 0 1012 6.5 4.49 4.49 0 007.5 2z"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "element": "span",
+                        "attr": {
+                          "class": "text"
+                        },
+                        "text": "Network"
+                      }
+                    ]
+                  },
+                  {
+                    "element": "li",
+                    "attr": {
+                      "class": "menu-item",
+                      "role": "list"
+                    },
+                    "children": [
+                      {
+                        "type": "svg",
+                        "element": "svg",
+                        "attr": {
+                          "class": "job-icon"
+                        },
+                        "attrNS": {
+                          "viewBox": "0 0 24 24"
+                        },
+                        "children": [
+                          {
+                            "type": "svg",
+                            "element": "path",
+                            "attr": {
+                              "d": "M17 6V5a3 3 0 00-3-3h-4a3 3 0 00-3 3v1H2v4a3 3 0 003 3h14a3 3 0 003-3V6zM9 5a1 1 0 011-1h4a1 1 0 011 1v1H9zm10 9a4 4 0 003-1.38V17a3 3 0 01-3 3H5a3 3 0 01-3-3v-4.38A4 4 0 005 14z"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "element": "span",
+                        "attr": {
+                          "class": "text"
+                        },
+                        "text": "Jobs"
+                      }
+                    ]
+                  },
+                  {
+                    "element": "li",
+                    "attr": {
+                      "class": "menu-item",
+                      "role": "list"
+                    },
+                    "children": [
+                      {
+                        "type": "svg",
+                        "element": "svg",
+                        "attr": {
+                          "class": "message-icon"
+                        },
+                        "attrNS": {
+                          "viewBox": "0 0 24 24"
+                        },
+                        "children": [
+                          {
+                            "type": "svg",
+                            "element": "path",
+                            "attr": {
+                              "d": "M16 4H8a7 7 0 000 14h4v4l8.16-5.39A6.78 6.78 0 0023 11a7 7 0 00-7-7zm-8 8.25A1.25 1.25 0 119.25 11 1.25 1.25 0 018 12.25zm4 0A1.25 1.25 0 1113.25 11 1.25 1.25 0 0112 12.25zm4 0A1.25 1.25 0 1117.25 11 1.25 1.25 0 0116 12.25z"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "element": "span",
+                        "attr": {
+                          "class": "text"
+                        },
+                        "text": "Messages"
+                      }
+                    ]
+                  },
+                  {
+                    "element": "li",
+                    "attr": {
+                      "class": "menu-item active",
+                      "role": "list"
+                    },
+                    "children": [
+                      {
+                        "type": "svg",
+                        "element": "svg",
+                        "attr": {
+                          "class": "notification-icon"
+                        },
+                        "attrNS": {
+                          "viewBox": "0 0 24 24"
+                        },
+                        "children": [
+                          {
+                            "type": "svg",
+                            "element": "path",
+                            "attr": {
+                              "d": "M22 19h-8.28a2 2 0 11-3.44 0H2v-1a4.52 4.52 0 011.17-2.83l1-1.17h15.7l1 1.17A4.42 4.42 0 0122 18zM18.21 7.44A6.27 6.27 0 0012 2a6.27 6.27 0 00-6.21 5.44L5 13h14z"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "element": "span",
+                        "attr": {
+                          "class": "text"
+                        },
+                        "text": "Notifications"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "element": "section",
+    "attr": {
+      "class": "flex-container flex-rows main-container"
+    },
+    "children": [
+      {
+        "element": "sidebar",
+        "attr": {
+          "class": "flex-container flex-columns sidebar-container"
+        },
+        "children": [
+          {
+            "element": "section",
+            "attr": {
+              "class": "fluid-flex-container flex-columns component-container"
+            },
+            "children": [
+              {
+                "element": "div",
+                "attr": {
+                  "class": "flex-container flex-rows notification-settings-container"
+                },
+                "children": [
+                  {
+                    "element": "section",
+                    "attr": {
+                      "class": "flex-container flex-columns notification-settings"
+                    },
+                    "children": [
+                      {
+                        "element": "h1",
+                        "attr": {
+                          "class": "notification-settings-text"
+                        },
+                        "text": "Gerencie suas notificações"
+                      },
+                      {
+                        "element": "a",
+                        "attr": {
+                          "class": "notification-settings-link",
+                          "href": "/"
+                        },
+                        "text": "Visualizar configurações"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "element": "main",
+        "attr": {
+          "class": "flex-container flex-columns feed-container"
+        },
+        "children": [
+          {
+            "element": "section",
+            "attr": {
+              "class": "fluid-flex-container flex-columns notifications-container"
+            },
+            "children": [
+              {
+                "element": "section",
+                "attr": {
+                  "class": "fluid-flex-container flex-columns component-container"
+                },
+                "children": [
+                  {
+                    "element": "section",
+                    "attr": {
+                      "class": "fluid-flex-container flex-rows filter-container"
+                    },
+                    "children": [
+                      {
+                        "element": "button",
+                        "attr": {
+                          "class": "flex-container item-container active"
+                        },
+                        "text": "All"
+                      },
+                      {
+                        "element": "button",
+                        "attr": {
+                          "class": "flex-container item-container"
+                        },
+                        "text": "My publications"
+                      },
+                      {
+                        "element": "button",
+                        "attr": {
+                          "class": "flex-container item-container"
+                        },
+                        "text": "Mentions"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "element": "div",
+                "attr": {
+                  "class": "fluid-flex-container flex-columns component-container"
+                },
+                "children": [
+                  {
+                    "element": "article",
+                    "attr": {
+                      "class": "flex-container flex-rows feed-item-container unread"
+                    },
+                    "children": [
+                      {
+                        "type": "svg",
+                        "element": "svg",
+                        "attr": {
+                          "class": "mark-icon-container"
+                        },
+                        "attrNS": {
+                          "viewBox": "0 0 16 16"
+                        },
+                        "children": [
+                          {
+                            "type": "svg",
+                            "element": "circle",
+                            "attr": {
+                              "cx": "8",
+                              "cy": "8",
+                              "r": "8"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "svg",
+                        "element": "svg",
+                        "attr": {
+                          "class": "icon-item-container"
+                        },
+                        "attrNS": {
+                          "viewBox": "0 0 64 64"
+                        },
+                        "children": [
+                          {
+                            "type": "svg",
+                            "element": "path",
+                            "attr": {
+                              "d": "M2 0h60v49a4 4 0 01-4 4H6a4 4 0 01-4-4z",
+                              "fill": "#dce6f1"
+                            }
+                          },
+                          {
+                            "type": "svg",
+                            "element": "path",
+                            "attr": {
+                              "d": "M58 59H6a1 1 0 010-2h52a1 1 0 010 2z",
+                              "fill": "#788fa5"
+                            }
+                          },
+                          {
+                            "type": "svg",
+                            "element": "path",
+                            "attr": {
+                              "d": "M54 64H10a1 1 0 010-2h44a1 1 0 010 2z",
+                              "fill": "#c0d1e2"
+                            }
+                          },
+                          {
+                            "type": "svg",
+                            "element": "path",
+                            "attr": {
+                              "d": "M9 8h46v14H9z",
+                              "fill": "#56687a"
+                            }
+                          },
+                          {
+                            "type": "svg",
+                            "element": "path",
+                            "attr": {
+                              "d": "M9 29h27v16H9z",
+                              "fill": "#fff"
+                            }
+                          },
+                          {
+                            "type": "svg",
+                            "element": "path",
+                            "attr": {
+                              "d": "M42 29h13v16H42z",
+                              "fill": "#9db88f"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "element": "span",
+                        "attr": {
+                          "class": "text-item-container"
+                        },
+                        "html": "<strong>Jamil Services</strong> created the <strong>SimplyBuilder framework</strong> and released the public version on <strong>GitHub</strong> on <strong>28/12/2023</strong>."
+                      }
+                    ]
+                  },
+                  {
+                    "element": "article",
+                    "attr": {
+                      "class": "flex-container flex-rows feed-item-container"
+                    },
+                    "children": [
+                      {
+                        "type": "svg",
+                        "element": "svg",
+                        "attr": {
+                          "class": "mark-icon-container"
+                        },
+                        "attrNS": {
+                          "viewBox": "0 0 16 16"
+                        },
+                        "children": [
+                          {
+                            "type": "svg",
+                            "element": "circle",
+                            "attr": {
+                              "cx": "8",
+                              "cy": "8",
+                              "r": "8"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "svg",
+                        "element": "svg",
+                        "attr": {
+                          "class": "icon-item-container"
+                        },
+                        "attrNS": {
+                          "viewBox": "0 0 64 64"
+                        },
+                        "children": [
+                          {
+                            "type": "svg",
+                            "element": "path",
+                            "attr": {
+                              "d": "M2 0h60v49a4 4 0 01-4 4H6a4 4 0 01-4-4z",
+                              "fill": "#dce6f1"
+                            }
+                          },
+                          {
+                            "type": "svg",
+                            "element": "path",
+                            "attr": {
+                              "d": "M58 59H6a1 1 0 010-2h52a1 1 0 010 2z",
+                              "fill": "#788fa5"
+                            }
+                          },
+                          {
+                            "type": "svg",
+                            "element": "path",
+                            "attr": {
+                              "d": "M54 64H10a1 1 0 010-2h44a1 1 0 010 2z",
+                              "fill": "#c0d1e2"
+                            }
+                          },
+                          {
+                            "type": "svg",
+                            "element": "path",
+                            "attr": {
+                              "d": "M9 8h46v14H9z",
+                              "fill": "#56687a"
+                            }
+                          },
+                          {
+                            "type": "svg",
+                            "element": "path",
+                            "attr": {
+                              "d": "M9 29h27v16H9z",
+                              "fill": "#fff"
+                            }
+                          },
+                          {
+                            "type": "svg",
+                            "element": "path",
+                            "attr": {
+                              "d": "M42 29h13v16H42z",
+                              "fill": "#9db88f"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "element": "span",
+                        "attr": {
+                          "class": "text-item-container"
+                        },
+                        "text": "This is just a basic example of a structural design created with SimplyBuilder"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "element": "aside",
+        "attr": {
+          "class": "flex-container flex-columns aside-container"
+        },
+        "children": [
+          {
+            "element": "section",
+            "attr": {
+              "class": "fluid-flex-container flex-columns component-container"
+            },
+            "children": [
+              {
+                "element": "div",
+                "attr": {
+                  "class": "flex-container flex-rows copyright-container"
+                },
+                "children": [
+                  {
+                    "element": "section",
+                    "attr": {
+                      "class": "flex-container flex-rows copyright"
+                    },
+                    "children": [
+                      {
+                        "type": "svg",
+                        "element": "svg",
+                        "attr": {
+                          "class": "copyright-logo"
+                        },
+                        "attrNS": {
+                          "viewBox": "0 0 56 14"
+                        },
+                        "children": [
+                          {
+                            "type": "svg",
+                            "element": "path",
+                            "attr": {
+                              "d": "M22.1 8.2l3.09 3.8h-2.44L20 8.51V12h-2V2h2v5.88L22.54 5h2.55zm-8-3.4A2.7 2.7 0 0011.89 6V5H10v7h2V8.73a1.73 1.73 0 011.54-1.92h.12C14.82 6.8 15 7.94 15 8.73V12h2V8.29c0-2.2-.73-3.49-2.86-3.49zM32 8.66a3.23 3.23 0 010 .44h-5.25v.07a1.79 1.79 0 001.83 1.43 2.51 2.51 0 001.84-.69l1.33 1a4.3 4.3 0 01-3.25 1.29 3.49 3.49 0 01-3.7-3.26 4 4 0 010-.49 3.58 3.58 0 013.5-3.65h.26C30.44 4.8 32 6.13 32 8.66zm-1.86-.86a1.45 1.45 0 00-1.51-1.4h-.08a1.63 1.63 0 00-1.8 1.4zM2 2H0v10h6v-2H2zm36 0h2v10h-1.89v-.7a2.45 2.45 0 01-2 .9 3.41 3.41 0 01-3.32-3.5 1.41 1.41 0 010-.2 3.35 3.35 0 013-3.68h.3a2.61 2.61 0 011.9.7zm.15 6.5a1.64 1.64 0 00-1.4-1.84h-.22A1.76 1.76 0 0034.9 8.5a1.76 1.76 0 001.63 1.85 1.62 1.62 0 001.63-1.63.81.81 0 00-.01-.22zM8 1.8A1.27 1.27 0 006.75 3a1.25 1.25 0 002.5 0A1.27 1.27 0 008 1.8zM7 12h2V5H7zM56 1v12a1 1 0 01-1 1H43a1 1 0 01-1-1V1a1 1 0 011-1h12a1 1 0 011 1zM46 5h-2v7h2zm.25-2A1.25 1.25 0 1045 4.25 1.25 1.25 0 0046.25 3zM54 8.29c0-2.2-.73-3.49-2.86-3.49A2.71 2.71 0 0048.89 6V5H47v7h2V8.73a1.73 1.73 0 011.54-1.92h.12C51.82 6.8 52 7.94 52 8.73V12h2z"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "element": "span",
+                        "attr": {
+                          "class": "copyright-text"
+                        },
+                        "text": "SimplyBuilder Layout Example"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

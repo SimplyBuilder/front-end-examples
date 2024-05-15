@@ -1,0 +1,1514 @@
+.header-container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 64px;
+    max-height: 64px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.header-container .logo-container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    width: 238px;
+    height: inherit;
+    max-height: inherit;
+    min-height: fit-content;
+    max-width: 238px;
+    min-width: fit-content;
+    overflow: hidden;
+    padding: 0 0 0 12px;
+    gap: 4px;
+}
+
+.header-container .logo-container .icon-menu-container {
+    display: inline-flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    max-width: 24px;
+    min-width: 24px;
+    height: 24px;
+    max-height: 24px;
+    min-height: 24px;
+    border-radius: 50%;
+    overflow: hidden;
+    color: #5f6368;
+    cursor: pointer;
+}
+
+.header-container .logo-container .icon-menu-container:hover {
+    background-color: rgba(60, 64, 67, 0.08);
+    outline: none;
+}
+
+.header-container .logo-container .icon-menu-container .icon-menu-svg {
+    display: inherit;
+    width: 24px;
+    max-width: 24px;
+    min-width: 0;
+    height: 24px;
+    max-height: 24px;
+    min-height: 24px;
+    fill: currentColor;
+}
+
+.header-container .logo-container .icon-logo-container {
+    display: inline-flex;
+}
+
+.header-container .logo-container .icon-logo-container .icon-logo-image {
+    cursor: pointer;
+    display: inherit;
+}
+
+.header-container .tools-container {
+    display: inline-flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    max-height: inherit;
+    min-height: fit-content;
+    padding-right: 4px;
+}
+
+.header-container .tools-container .search-container {
+    flex: 1;
+    display: inline-flex;
+    position: relative;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    height: inherit;
+    width: inherit;
+    max-width: inherit;
+    min-width: inherit;
+    max-height: inherit;
+    min-height: fit-content;
+    box-sizing: border-box;
+    white-space: nowrap;
+    user-select: none;
+    padding: 0 0 0 6px;
+}
+
+.header-container .tools-container .search-container .icon-search-container, .header-container .tools-container .search-container .icon-filter-container {
+    cursor: pointer;
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    color: #444746;
+}
+
+.header-container .tools-container .search-container .icon-search-container {
+    position: absolute;
+    color: #444746;
+}
+
+.header-container .tools-container .search-container .icon-search-container .icon-search-svg {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    fill: currentColor;
+    border-radius: 50%;
+}
+
+.header-container .tools-container .search-container .icon-search-container .icon-search-svg:hover {
+    background-color: rgba(60, 64, 67, 0.08);
+    outline: none;
+}
+
+.header-container .tools-container .search-container .icon-filter-container {
+    position: relative;
+    left: -52px;
+}
+
+.header-container .tools-container .search-container .icon-filter-container .icon-filter-svg {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    fill: currentColor;
+    border-radius: 50%;
+}
+
+.header-container .tools-container .search-container .icon-filter-container .icon-filter-svg:hover {
+    background-color: rgba(60, 64, 67, 0.08);
+    outline: none;
+}
+
+.header-container .tools-container .search-container .input-container {
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    user-select: none;
+    box-sizing: border-box;
+    color: black;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    height: 48px;
+    width: 100%;
+    max-width: 720px;
+    min-width: inherit;
+    max-height: inherit;
+    min-height: 46px;
+    border-radius: 24px;
+    border: 0;
+    padding-left: 44px;
+    padding-right: 112px;
+    font-size: 16px;
+    background-color: #eaf1fb;
+}
+
+.header-container .tools-container .search-container .input-container:focus {
+    outline: none;
+    background-color: #fff;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 1px 0 rgba(65, 69, 73, 0.3), 0 1px 3px 1px rgba(65, 69, 73, 0.15);
+}
+
+.header-container .tools-container .icon-tools-container {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    max-width: inherit;
+    min-width: fit-content;
+    height: fit-content;
+    max-height: inherit;
+    min-height: inherit;
+    overflow: hidden;
+    color: #5f6368;
+    gap: 4px;
+}
+
+.header-container .tools-container .icon-tools-container .icon-help-svg, .header-container .tools-container .icon-tools-container .icon-settings-svg {
+    cursor: pointer;
+    display: inline-flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    max-width: 24px;
+    min-width: 24px;
+    height: 24px;
+    max-height: 24px;
+    min-height: 24px;
+    border-radius: 50%;
+    overflow: hidden;
+    fill: currentColor;
+}
+
+.header-container .tools-container .icon-tools-container .icon-help-svg:hover, .header-container .tools-container .icon-tools-container .icon-settings-svg:hover {
+    background-color: rgba(60, 64, 67, 0.08);
+    outline: none;
+}
+
+.header-container .account-container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    width: fit-content;
+    height: inherit;
+    max-height: inherit;
+    min-height: fit-content;
+    max-width: fit-content;
+    min-width: fit-content;
+    overflow: hidden;
+    padding: 0 14px 0 0;
+    gap: 8px;
+}
+
+.header-container .account-container .icon-menu-container {
+    display: inline-flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    max-width: 24px;
+    min-width: 24px;
+    height: 24px;
+    max-height: 24px;
+    min-height: 24px;
+    border-radius: 50%;
+    overflow: hidden;
+    color: #5f6368;
+}
+
+.header-container .account-container .icon-menu-container:hover {
+    background-color: rgba(60, 64, 67, 0.08);
+    outline: none;
+}
+
+.header-container .account-container .icon-menu-container .icon-menu-svg {
+    cursor: pointer;
+    display: inherit;
+    width: 24px;
+    max-width: 24px;
+    min-width: 0;
+    height: 24px;
+    max-height: 24px;
+    min-height: 24px;
+    fill: currentColor;
+}
+
+.header-container .account-container .icon-account-container {
+    display: inline-flex;
+    overflow: hidden;
+    user-select: none;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.header-container .account-container .icon-account-container:hover {
+    background-color: rgba(60, 64, 67, 0.08);
+    outline: none;
+}
+
+.header-container .account-container .icon-account-container .icon-account-image {
+    display: inherit;
+    user-select: none;
+    cursor: pointer;
+}
+
+.header-container .account-container .icon-account-container .icon-account-image img {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: calc(100% - 64px);
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #f6f8fc;
+    box-sizing: border-box;
+}
+
+.main-container .sidebar-container {
+    display: inline-flex;
+    margin: inherit;
+    padding: inherit;
+    width: 256px;
+    max-width: 256px;
+    height: inherit;
+    max-height: inherit;
+    background-color: inherit;
+    flex-direction: column;
+}
+
+.main-container .sidebar-container .write-btn-container {
+    display: inline-flex;
+    width: inherit;
+    max-width: inherit;
+    background-color: inherit;
+    height: 5rem;
+    max-height: 5rem;
+    min-height: 5rem;
+    user-select: none;
+}
+
+.main-container .sidebar-container .write-btn-container .btn-container {
+    display: inherit;
+    flex-grow: 1;
+    font-size: medium;
+    height: 3.5rem;
+    margin: 0.5rem 0 1rem 0;
+    padding: 0 0 0 0.5rem;
+    align-items: center;
+    background-color: inherit;
+}
+
+.main-container .sidebar-container .write-btn-container .btn-container .btn-item {
+    display: inherit;
+    font-size: 0.875rem;
+    letter-spacing: normal;
+    align-items: center;
+    background-image: none;
+    font-weight: bold;
+    text-transform: none;
+    transition: box-shadow 0.08s linear, min-width 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    color: #001d35;
+    height: 3.5rem;
+    min-height: 3.5rem;
+    padding: 0 1.5rem 0 0;
+    min-width: 6rem;
+    cursor: pointer;
+    box-shadow: 0 0.063rem 0.125rem 0 rgba(0, 0, 0, 0), 0 0.063rem 0.188rem 0.063rem rgba(0, 0, 0, 0);
+    border: none;
+    border-radius: 1rem;
+    line-height: 2rem;
+    -webkit-user-drag: none;
+    user-select: none;
+    text-shadow: none;
+    text-align: center;
+    white-space: nowrap;
+    margin-right: 1rem;
+    outline: 0;
+    background-color: #c2e7ff;
+}
+
+.main-container .sidebar-container .write-btn-container .btn-container .btn-item:hover {
+    box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.302), 0 4px 8px 3px rgba(60, 64, 67, 0.149);
+    background-color: #c2e7ff;
+}
+
+/*noinspection ALL*/
+.main-container .sidebar-container .write-btn-container .btn-container .btn-item::before {
+    content: "";
+    display: block;
+    user-select: none;
+    color: #001d35;
+    cursor: pointer;
+    margin-left: 0;
+    margin-right: 0;
+    background-image: url(./assets/gmail/img/create_black_24dp.png);
+    background-size: 1.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1.25rem;
+    width: 1.25rem;
+    min-width: 3.5rem;
+}
+
+.main-container .sidebar-container .menu-scroll-container {
+    display: inline-flex;
+    width: inherit;
+    max-width: inherit;
+    height: inherit;
+    min-height: inherit;
+    max-height: inherit;
+    margin: inherit;
+    flex-direction: column;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+    gap: 0;
+}
+
+.main-container .sidebar-container .menu-scroll-container::-webkit-scrollbar {
+    background: transparent;
+    height: 0.5rem;
+    width: 0.5rem;
+}
+
+.main-container .sidebar-container .menu-scroll-container::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: none;
+    border-radius: 0.25rem;
+    box-shadow: none;
+}
+
+.main-container .sidebar-container .menu-scroll-container:hover::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(32, 33, 36, 0.541);
+}
+
+.main-container .sidebar-container .menu-scroll-container:hover::-webkit-scrollbar-thumb {
+    background-color: rgba(32, 33, 36, 0.38);
+}
+
+.main-container .sidebar-container .menu-scroll-container .menu-container {
+    display: inline-flex;
+    width: inherit;
+    max-width: 100%;
+    height: fit-content;
+    min-height: fit-content;
+    max-height: 100%;
+    margin: inherit;
+    padding: inherit;
+    flex-direction: column;
+}
+
+.main-container .sidebar-container .menu-scroll-container .menu-container .menu-container {
+    overflow: hidden;
+    display: inherit;
+    flex-direction: column;
+    width: 100%;
+    max-width: inherit;
+    min-width: inherit;
+    height: fit-content;
+    max-height: fit-content;
+    min-height: fit-content;
+    margin: inherit;
+    padding: 0 8px 0 0;
+    font-size: 0.875rem;
+    list-style: none;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.main-container .sidebar-container .menu-scroll-container .menu-container .menu-container .menu-item {
+    cursor: pointer;
+    display: inherit;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: end;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: 2rem;
+    min-height: 2rem;
+    max-height: 2rem;
+    box-shadow: inset 0 0 0 0.063rem transparent;
+    border-radius: 0 1rem 1rem 0;
+    box-sizing: border-box;
+    padding: 0 0.75rem 0 4rem;
+    user-select: none;
+    font-size: inherit;
+    transition: margin 0.15s cubic-bezier(0.4, 0, 0.2, 1), padding 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    background-position: 1.625rem;
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+}
+
+.main-container .sidebar-container .menu-scroll-container .menu-container .menu-container .menu-item.no-read {
+    font-weight: bold;
+}
+
+.main-container .sidebar-container .menu-scroll-container .menu-container .menu-container .menu-item.active {
+    background-color: #d3e3fd;
+}
+
+/*noinspection ALL*/
+.main-container .sidebar-container .menu-scroll-container .menu-container .menu-container .menu-item.inbox {
+    background-image: url(./assets/gmail/img/inbox_fill_baseline_p900_20dp.png);
+}
+
+/*noinspection ALL*/
+.main-container .sidebar-container .menu-scroll-container .menu-container .menu-container .menu-item.snoozed {
+    background-image: url(./assets/gmail/img/schedule_baseline_nv700_20dp.png);
+}
+
+/*noinspection ALL*/
+.main-container .sidebar-container .menu-scroll-container .menu-container .menu-container .menu-item.sent {
+    background-image: url(./assets/gmail/img/send_baseline_nv700_20dp.png);
+}
+
+/*noinspection ALL*/
+.main-container .sidebar-container .menu-scroll-container .menu-container .menu-container .menu-item.drafts {
+    background-image: url(./assets/gmail/img/draft_baseline_nv700_20dp.png);
+}
+
+/*noinspection ALL*/
+.main-container .sidebar-container .menu-scroll-container .menu-container .menu-container .menu-item.spam {
+    background-image: url(./assets/gmail/img/report_baseline_nv700_20dp.png);
+}
+
+.main-container .sidebar-container .menu-scroll-container .menu-container .menu-container .menu-item span {
+    max-width: 6.75rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.main-container .sidebar-container .menu-scroll-container .menu-container .menu-container .menu-item .no-read-items {
+    display: inline-flex;
+    max-width: fit-content;
+    font-size: 0.75rem;
+}
+
+.main-container .sidebar-container .menu-scroll-container .menu-container .menu-container .menu-item:not(.active) > .no-read-items {
+    color: #5f6368;
+}
+
+.main-container .sidebar-container .menu-scroll-container .menu-container .menu-container .menu-item:not(.active):hover {
+    background-color: rgba(32, 33, 36, 0.059);
+}
+
+.main-container .sidebar-container .menu-scroll-container .category-container {
+    display: inline-flex;
+    width: inherit;
+    max-width: 100%;
+    height: fit-content;
+    min-height: fit-content;
+    max-height: 100%;
+    margin: inherit;
+    padding: inherit;
+    flex-direction: column;
+    position: relative;
+}
+
+.main-container .sidebar-container .menu-scroll-container .category-container .category-header, .main-container .sidebar-container .menu-scroll-container .category-container .category-items {
+    position: inherit;
+}
+
+.main-container .sidebar-container .menu-scroll-container .category-container input[type=checkbox], .main-container .sidebar-container .menu-scroll-container .category-container .category-header {
+    cursor: pointer;
+}
+
+/*noinspection ALL*/
+.main-container .sidebar-container .menu-scroll-container .category-container input[type=checkbox] {
+    position: absolute;
+    user-select: none;
+    margin-top: 0;
+    left: 0.313rem;
+    z-index: 1;
+    appearance: none;
+    display: inline-flex;
+    align-items: center;
+    height: 2rem;
+    min-height: 2rem;
+    max-height: 2rem;
+    width: 1.25rem;
+    max-width: 1.25rem;
+    min-width: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    background-image: url(./assets/gmail/img/arrow_right_baseline_nv700_20dp.png);
+}
+
+/*noinspection ALL*/
+.main-container .sidebar-container .menu-scroll-container .category-container input[type=checkbox]:checked {
+    background-image: url(./assets/gmail/img/arrow_drop_down_baseline_nv700_20dp.png);
+}
+
+.main-container .sidebar-container .menu-scroll-container .category-container input[type=checkbox]:checked + .category-items {
+    display: inline-flex !important;
+}
+
+/*noinspection ALL*/
+.main-container .sidebar-container .menu-scroll-container .category-container .category-header {
+    display: inherit;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    margin: 0;
+    height: 2rem;
+    min-height: 2rem;
+    max-height: 2rem;
+    font-size: 0.875rem;
+    box-shadow: inset 0 0 0 0.063rem transparent;
+    border-radius: 0 1rem 1rem 0;
+    box-sizing: border-box;
+    user-select: none;
+    padding: 0 0.75rem 0 0.313rem;
+    background-position: 1.625rem;
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    background-image: url(./assets/gmail/img/label_baseline_nv700_20dp.png);
+}
+
+.main-container .sidebar-container .menu-scroll-container .category-container .category-header span {
+    user-select: none;
+    display: inline-flex;
+    align-items: center;
+    height: 2rem;
+    min-height: 2rem;
+    max-height: 2rem;
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    padding-left: 3.75rem;
+}
+
+.main-container .sidebar-container .menu-scroll-container .category-container .category-items {
+    overflow: hidden;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    max-width: inherit;
+    min-width: inherit;
+    height: fit-content;
+    max-height: fit-content;
+    min-height: fit-content;
+    margin: inherit;
+    padding: inherit;
+    font-size: 0.875rem;
+    list-style: none;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.main-container .sidebar-container .menu-scroll-container .category-container .category-items .category-item {
+    cursor: pointer;
+    display: inherit;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: end;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: 2rem;
+    min-height: 2rem;
+    max-height: 2rem;
+    box-shadow: inset 0 0 0 0.063rem transparent;
+    border-radius: 0 1rem 1rem 0;
+    box-sizing: border-box;
+    padding: 0 0.75rem 0 4.875rem;
+    user-select: none;
+    font-size: inherit;
+    transition: margin 0.15s cubic-bezier(0.4, 0, 0.2, 1), padding 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    background-position: 2.438rem;
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+}
+
+/*noinspection ALL*/
+.main-container .sidebar-container .menu-scroll-container .category-container .category-items .category-item.social {
+    background-image: url(./assets/gmail/img/group_baseline_nv700_20dp.png);
+}
+
+/*noinspection ALL*/
+.main-container .sidebar-container .menu-scroll-container .category-container .category-items .category-item.updates {
+    background-image: url(./assets/gmail/img/info_baseline_nv700_20dp.png);
+}
+
+/*noinspection ALL*/
+.main-container .sidebar-container .menu-scroll-container .category-container .category-items .category-item.forums {
+    background-image: url(./assets/gmail/img/forum_baseline_nv700_20dp.png);
+}
+
+/*noinspection ALL*/
+.main-container .sidebar-container .menu-scroll-container .category-container .category-items .category-item.promotions {
+    background-image: url(./assets/gmail/img/sell_baseline_nv700_20dp.png);
+}
+
+.main-container .sidebar-container .menu-scroll-container .category-container .category-items .category-item span {
+    max-width: 6.75rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.main-container .sidebar-container .menu-scroll-container .category-container .category-items .category-item .no-read-items {
+    display: inline-flex;
+    max-width: fit-content;
+    font-size: 0.75rem;
+}
+
+.main-container .sidebar-container .menu-scroll-container .category-container .category-items .category-item:not(.active) > .no-read-items {
+    color: #5f6368;
+}
+
+.main-container .sidebar-container .menu-scroll-container .category-container .category-items .category-item:not(.active):hover {
+    background-color: rgba(32, 33, 36, 0.059);
+}
+
+.main-container .sidebar-container .menu-scroll-container .category-container:hover:not(:has(.category-items:hover)) > .category-header {
+    background-color: rgba(32, 33, 36, 0.059);
+}
+
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container {
+    display: inline-flex;
+    width: inherit;
+    max-width: 100%;
+    height: fit-content;
+    min-height: fit-content;
+    max-height: 100%;
+    margin: inherit;
+    padding: inherit;
+    flex-direction: column;
+    position: relative;
+}
+
+/*noinspection ALL*/
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container input[type=checkbox] {
+    position: absolute;
+    user-select: none;
+    margin-top: 0;
+    left: 1.375rem;
+    z-index: 1;
+    appearance: none;
+    display: inline-flex;
+    align-items: center;
+    height: 2rem;
+    min-height: 2rem;
+    max-height: 2rem;
+    width: 1.25rem;
+    max-width: 1.25rem;
+    min-width: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    background-image: url(./assets/gmail/img/expand_more_baseline_nv700_20dp.png);
+}
+
+/*noinspection ALL*/
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container input[type=checkbox]:checked {
+    background-image: url(./assets/gmail/img/expand_less_baseline_nv700_20dp.png);
+}
+
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container input[type=checkbox]:checked + .menuExtends-header span[data-extends-open=true] {
+    display: inline-flex;
+}
+
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container input[type=checkbox]:checked + .menuExtends-header span[data-extends-open=false] {
+    display: none;
+}
+
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container input[type=checkbox]:checked ~ .menuExtends-items {
+    display: inline-flex !important;
+}
+
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container input[type=checkbox] + .menuExtends-header span[data-extends-open=true] {
+    display: none;
+}
+
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container input[type=checkbox] + .menuExtends-header span[data-extends-open=false] {
+    display: inline-flex;
+}
+
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container .menuExtends-header, .main-container .sidebar-container .menu-scroll-container .menuExtends-container .menuExtends-items {
+    position: relative;
+}
+
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container .menuExtends-header {
+    display: inherit;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    margin: 0;
+    height: 2rem;
+    min-height: 2rem;
+    max-height: 2rem;
+    font-size: 0.875rem;
+    box-shadow: inset 0 0 0 0.063rem transparent;
+    border-radius: 0 1rem 1rem 0;
+    box-sizing: border-box;
+    user-select: none;
+    padding: 0 0.75rem 0 0.313rem;
+}
+
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container .menuExtends-header span {
+    display: none;
+    user-select: none;
+    align-items: center;
+    height: 2rem;
+    min-height: 2rem;
+    max-height: 2rem;
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    padding-left: 3.75rem;
+}
+
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container .menuExtends-items {
+    overflow: hidden;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    max-width: inherit;
+    min-width: inherit;
+    height: fit-content;
+    max-height: fit-content;
+    min-height: fit-content;
+    margin: inherit;
+    padding: inherit;
+    font-size: 0.875rem;
+    list-style: none;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container .menuExtends-items .menuExtends-item {
+    cursor: pointer;
+    display: inherit;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: end;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: 2rem;
+    min-height: 2rem;
+    max-height: 2rem;
+    box-shadow: inset 0 0 0 0.063rem transparent;
+    border-radius: 0 1rem 1rem 0;
+    box-sizing: border-box;
+    padding: 0 0.75rem 0 4rem;
+    user-select: none;
+    font-size: inherit;
+    transition: margin 0.15s cubic-bezier(0.4, 0, 0.2, 1), padding 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    background-position: 1.625rem;
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+}
+
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container .menuExtends-items .menuExtends-item.no-read {
+    font-weight: bold;
+}
+
+/*noinspection ALL*/
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container .menuExtends-items .menuExtends-item.starred {
+    background-image: url(./assets/gmail/img/star_baseline_nv700_20dp.png);
+}
+
+/*noinspection ALL*/
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container .menuExtends-items .menuExtends-item.important {
+    background-image: url(./assets/gmail/img/label_important_baseline_nv700_20dp.png);
+}
+
+/*noinspection ALL*/
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container .menuExtends-items .menuExtends-item.chats {
+    background-image: url(./assets/gmail/img/chat_black_20dp.png);
+}
+
+/*noinspection ALL*/
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container .menuExtends-items .menuExtends-item.scheduled {
+    background-image: url(./assets/gmail/img/schedule_send_baseline_nv700_20dp.png);
+}
+
+/*noinspection ALL*/
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container .menuExtends-items .menuExtends-item.all {
+    background-image: url(./assets/gmail/img/stacked_email_baseline_nv700_20dp.png);
+}
+
+/*noinspection ALL*/
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container .menuExtends-items .menuExtends-item.trash {
+    background-image: url(./assets/gmail/img/delete_baseline_nv700_20dp.png);
+}
+
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container .menuExtends-items .menuExtends-item span {
+    max-width: 6.75rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container .menuExtends-items .menuExtends-item .no-read-items {
+    display: inline-flex;
+    max-width: fit-content;
+    font-size: 0.75rem;
+}
+
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container .menuExtends-items .menuExtends-item:not(.active) > .no-read-items {
+    color: #5f6368;
+}
+
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container .menuExtends-items .menuExtends-item:not(.active):hover {
+    background-color: rgba(32, 33, 36, 0.059);
+}
+
+.main-container .sidebar-container .menu-scroll-container .menuExtends-container:hover:not(:has(.menuExtends-items:hover)) > .menuExtends-header {
+    background-color: rgba(32, 33, 36, 0.059);
+}
+
+.main-container .sidebar-container .menu-scroll-container .space {
+    padding-bottom: 5rem;
+}
+
+.main-container .content-container {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex: 1;
+    width: 100%;
+    max-width: inherit;
+    padding: inherit;
+    height: auto;
+    max-height: inherit;
+    min-height: fit-content;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+.main-container .content-container .inbox-top-container {
+    display: inline-flex;
+    flex-direction: row;
+    height: 48px;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+}
+
+.main-container .content-container .inbox-top-container .icons-left-container, .main-container .content-container .inbox-top-container .icons-right-container {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    flex-grow: 1;
+}
+
+.main-container .content-container .inbox-top-container .icons-left-container {
+    justify-content: flex-start;
+}
+
+.main-container .content-container .inbox-top-container .icons-left-container .icons-left-items {
+    display: inline-flex;
+    flex-direction: row;
+    height: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+
+.main-container .content-container .inbox-top-container .icons-left-container .icons-left-items li:not(.spacer) {
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.main-container .content-container .inbox-top-container .icons-left-container .icons-left-items li:not(.spacer):hover {
+    background-color: rgba(60, 64, 67, 0.08);
+    outline: none;
+}
+
+.main-container .content-container .inbox-top-container .icons-left-container .icons-left-items:has(.checkbox:hover) .arrow, .main-container .content-container .inbox-top-container .icons-left-container .icons-left-items:has(.checkbox:hover) .checkbox, .main-container .content-container .inbox-top-container .icons-left-container .icons-left-items:has(.arrow:hover) .arrow, .main-container .content-container .inbox-top-container .icons-left-container .icons-left-items:has(.arrow:hover) .checkbox {
+    background-color: rgba(60, 64, 67, 0.08);
+}
+
+.main-container .content-container .inbox-top-container .icons-left-container .icons-left-items:has(.checkbox:hover) .checkbox, .main-container .content-container .inbox-top-container .icons-left-container .icons-left-items:has(.arrow:hover) .checkbox {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.main-container .content-container .inbox-top-container .icons-left-container .icons-left-items:has(.checkbox:hover) .arrow, .main-container .content-container .inbox-top-container .icons-left-container .icons-left-items:has(.arrow:hover) .arrow {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.main-container .content-container .inbox-top-container .icons-left-container .icons-left-items .icons-left-item {
+    display: inherit;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    user-select: none;
+}
+
+.main-container .content-container .inbox-top-container .icons-left-container .icons-left-items .icons-left-item.checkbox, .main-container .content-container .inbox-top-container .icons-left-container .icons-left-items .icons-left-item.arrow {
+    width: 20px;
+}
+
+.main-container .content-container .inbox-top-container .icons-left-container .icons-left-items .icons-left-item.refresh, .main-container .content-container .inbox-top-container .icons-left-container .icons-left-items .icons-left-item.more {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.main-container .content-container .inbox-top-container .icons-left-container .icons-left-items .icons-left-item.spacer {
+    width: 10px;
+}
+
+/*noinspection ALL*/
+.main-container .content-container .inbox-top-container .icons-left-container .icons-left-items .icons-left-item.checkbox {
+    background-image: url(./assets/gmail/img/check_box_outline_blank_baseline_nv700_20dp.png);
+}
+
+/*noinspection ALL*/
+.main-container .content-container .inbox-top-container .icons-left-container .icons-left-items .icons-left-item.arrow {
+    background-image: url(./assets/gmail/img/arrow_drop_down_baseline_nv700_20dp.png);
+}
+
+/*noinspection ALL*/
+.main-container .content-container .inbox-top-container .icons-left-container .icons-left-items .icons-left-item.refresh {
+    background-image: url(./assets/gmail/img/refresh_baseline_nv700_20dp.png);
+}
+
+/*noinspection ALL*/
+.main-container .content-container .inbox-top-container .icons-left-container .icons-left-items .icons-left-item.more {
+    background-image: url(./assets/gmail/img/more_vert_baseline_nv700_20dp.png);
+}
+
+.main-container .content-container .inbox-top-container .icons-right-container {
+    justify-content: flex-end;
+}
+
+.main-container .content-container .inbox-top-container .icons-right-container .icons-right-items {
+    display: inline-flex;
+    flex-direction: row;
+    height: 40px;
+    padding-right: 6px;
+    list-style: none;
+    margin: 0;
+    gap: 0;
+    align-items: center;
+}
+
+.main-container .content-container .inbox-top-container .icons-right-container .icons-right-items .icons-right-item {
+    display: inherit;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    user-select: none;
+}
+
+.main-container .content-container .inbox-top-container .icons-right-container .icons-right-items .icons-right-item.chevron-left, .main-container .content-container .inbox-top-container .icons-right-container .icons-right-items .icons-right-item.chevron-right {
+    width: 40px;
+    opacity: 0.43;
+}
+
+/*noinspection ALL*/
+.main-container .content-container .inbox-top-container .icons-right-container .icons-right-items .icons-right-item.chevron-left {
+    background-image: url(./assets/gmail/img/chevron_left_baseline_nv700_20dp.png);
+}
+
+/*noinspection ALL*/
+.main-container .content-container .inbox-top-container .icons-right-container .icons-right-items .icons-right-item.chevron-right {
+    background-image: url(./assets/gmail/img/chevron_right_baseline_nv700_20dp.png);
+}
+
+.main-container .content-container .inbox-top-container .icons-right-container .icons-right-items .icons-right-item.pagination {
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    color: #5f6368;
+    max-height: 36px;
+    min-width: 80px;
+    font-size: 12px;
+    white-space: nowrap;
+    user-select: none;
+    border-radius: 4px;
+}
+
+.main-container .content-container .inbox-top-container .icons-right-container .icons-right-items .icons-right-item.pagination:hover {
+    background-color: rgba(60, 64, 67, 0.08);
+    outline: none;
+}
+
+.main-container .content-container .content-scroll-container {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    height: fit-content;
+    min-height: fit-content;
+    max-height: inherit;
+    overflow-y: scroll;
+    overflow-x: auto;
+    scrollbar-gutter: stable;
+}
+
+.main-container .content-container .content-scroll-container::-webkit-scrollbar {
+    background: transparent;
+    width: 10px;
+    height: 10px;
+}
+
+.main-container .content-container .content-scroll-container::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.main-container .content-container .content-scroll-container::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+.main-container .content-container .content-scroll-container::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.07);
+}
+
+.main-container .content-container .content-scroll-container .inbox-tabs-container {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    height: 56px;
+    width: 100%;
+}
+
+.main-container .content-container .content-scroll-container .inbox-tabs-container .tab-items-container {
+    display: inherit;
+    height: inherit;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.main-container .content-container .content-scroll-container .inbox-tabs-container .tab-items-container .tab-menu-items {
+    display: inherit;
+    height: inherit;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    align-content: center;
+    flex-wrap: nowrap;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.main-container .content-container .content-scroll-container .inbox-tabs-container .tab-items-container .tab-menu-items .tab-menu-item {
+    cursor: pointer;
+    display: inherit;
+    justify-content: flex-start;
+    padding-left: 52px;
+    padding-right: 18px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: normal;
+    align-items: center;
+    min-width: 180px;
+    height: 100%;
+    min-height: 56px;
+    color: #333;
+    white-space: nowrap;
+    font-weight: bold;
+    position: relative;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-position: 16px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+.main-container .content-container .content-scroll-container .inbox-tabs-container .tab-items-container .tab-menu-items .tab-menu-item:hover {
+    background-color: rgba(60, 64, 67, 0.08);
+    outline: none;
+}
+
+/*noinspection ALL*/
+.main-container .content-container .content-scroll-container .inbox-tabs-container .tab-items-container .tab-menu-items .tab-menu-item.inbox {
+    background-image: url(./assets/gmail/img/inbox_fill_baseline_p600_20dp.png);
+}
+
+/*noinspection ALL*/
+.main-container .content-container .content-scroll-container .inbox-tabs-container .tab-items-container .tab-menu-items .tab-menu-item.promotions {
+    background-image: url(./assets/gmail/img/sell_baseline_nv700_20dp.png);
+}
+
+/*noinspection ALL*/
+.main-container .content-container .content-scroll-container .inbox-tabs-container .tab-items-container .tab-menu-items .tab-menu-item.social {
+    background-image: url(./assets/gmail/img/group_baseline_nv700_20dp.png);
+}
+
+.main-container .content-container .content-scroll-container .inbox-tabs-container .tab-items-container .tab-menu-items .tab-menu-item.active {
+    color: #0b57d0;
+}
+
+.main-container .content-container .content-scroll-container .inbox-tabs-container .tab-items-container .tab-menu-items .tab-menu-item.active:before {
+    background-color: #0b57d0;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    width: auto;
+    left: 0;
+    margin: 0 8px;
+    position: absolute;
+    right: 0;
+}
+
+.main-container .content-container .content-scroll-container .inbox-messages-container {
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: inherit;
+    height: 520px;
+    min-height: 120px;
+    max-height: inherit;
+    padding-top: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.main-container .content-container .content-scroll-container .inbox-messages-container .content-items {
+    display: inline-flex;
+    width: inherit;
+    align-items: flex-start;
+    flex-direction: column;
+    list-style: none;
+    min-height: fit-content;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: inherit;
+}
+
+.main-container .content-container .content-scroll-container .inbox-messages-container .content-items .content-item {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin: 0;
+    max-height: inherit;
+    min-height: 40px;
+    height: 40px;
+    font-size: 0.875rem;
+    line-height: 20px;
+    white-space: nowrap;
+    width: inherit;
+    max-width: inherit;
+    min-width: 0;
+    background-color: #f2f6fc;
+    box-shadow: inset 0 -1px 0 0 rgba(100, 121, 143, 0.122);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.main-container .content-container .content-scroll-container .inbox-messages-container .content-items .content-item .checkbox, .main-container .content-container .content-scroll-container .inbox-messages-container .content-items .content-item .from, .main-container .content-container .content-scroll-container .inbox-messages-container .content-items .content-item .subject, .main-container .content-container .content-scroll-container .inbox-messages-container .content-items .content-item .date {
+    cursor: pointer;
+    display: inherit;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.main-container .content-container .content-scroll-container .inbox-messages-container .content-items .content-item:hover > .checkbox {
+    opacity: 1;
+}
+
+.main-container .content-container .content-scroll-container .inbox-messages-container .content-items .content-item .checkbox {
+    appearance: none;
+    user-select: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    min-width: 20px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    opacity: 0.32;
+}
+
+.main-container .content-container .content-scroll-container .inbox-messages-container .content-items .content-item .checkbox.select:hover:before, .main-container .content-container .content-scroll-container .inbox-messages-container .content-items .content-item .checkbox.star:hover:before {
+    border-radius: 50%;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: -11px;
+    left: -9px;
+    content: "";
+    background-color: rgba(60, 64, 67, 0.08);
+    outline: none;
+}
+
+/*noinspection ALL*/
+.main-container .content-container .content-scroll-container .inbox-messages-container .content-items .content-item .checkbox.select {
+    margin-left: 16px;
+    background-image: url(./assets/gmail/img/check_box_outline_blank_baseline_nv700_20dp.png);
+}
+
+/*noinspection ALL*/
+.main-container .content-container .content-scroll-container .inbox-messages-container .content-items .content-item .checkbox.star {
+    margin-left: 8px;
+    background-image: url(./assets/gmail/img/star_baseline_nv700_20dp.png);
+}
+
+.main-container .content-container .content-scroll-container .inbox-messages-container .content-items .content-item .from, .main-container .content-container .content-scroll-container .inbox-messages-container .content-items .content-item .subject, .main-container .content-container .content-scroll-container .inbox-messages-container .content-items .content-item .date {
+    margin-left: 0;
+    user-select: none;
+}
+
+.main-container .content-container .content-scroll-container .inbox-messages-container .content-items .content-item .from {
+    margin-left: 8px;
+    min-width: 200px;
+}
+
+.main-container .content-container .content-scroll-container .inbox-messages-container .content-items .content-item .subject {
+    flex: 1;
+    box-sizing: border-box;
+    margin-right: 16px;
+    min-width: 0;
+}
+
+.main-container .content-container .content-scroll-container .inbox-messages-container .content-items .content-item .subject, .main-container .content-container .content-scroll-container .inbox-messages-container .content-items .content-item .subject > .last {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.main-container .content-container .content-scroll-container .inbox-messages-container .content-items .content-item .subject .first {
+    color: #202124;
+}
+
+.main-container .content-container .content-scroll-container .inbox-messages-container .content-items .content-item .subject .spacer, .main-container .content-container .content-scroll-container .inbox-messages-container .content-items .content-item .subject .last {
+    color: #5f6368;
+}
+
+.main-container .content-container .content-scroll-container .inbox-messages-container .content-items .content-item .subject .last {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.main-container .content-container .content-scroll-container .inbox-messages-container .content-items .content-item .date {
+    justify-content: flex-end;
+    margin-right: 16px;
+    font-size: 0.75rem;
+    color: #5f6368;
+    min-width: 60px;
+}
+
+.main-container .content-container .content-scroll-container .inbox-footer-container {
+    display: inherit;
+    flex-direction: row;
+    gap: 0;
+    align-items: flex-start;
+    align-content: center;
+    justify-items: flex-start;
+    height: 72px;
+    min-height: 72px;
+    width: 100%;
+    margin-bottom: 32px;
+    padding-right: 16px;
+    padding-left: 16px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.main-container .content-container .content-scroll-container .inbox-footer-container .used-container, .main-container .content-container .content-scroll-container .inbox-footer-container .items-container, .main-container .content-container .content-scroll-container .inbox-footer-container .others-container {
+    display: inherit;
+    height: fit-content;
+    width: 33.3%;
+}
+
+.main-container .content-container .content-scroll-container .inbox-footer-container .used-container span, .main-container .content-container .content-scroll-container .inbox-footer-container .items-container span, .main-container .content-container .content-scroll-container .inbox-footer-container .others-container span {
+    display: inherit;
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    max-width: inherit;
+    min-width: 0;
+    height: 20px;
+    font-size: 12px;
+    color: #666666;
+    letter-spacing: normal;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.main-container .content-container .content-scroll-container .inbox-footer-container .used-container span.link:hover:not(:has(span.icon:hover)), .main-container .content-container .content-scroll-container .inbox-footer-container .items-container span.link:hover:not(:has(span.icon:hover)), .main-container .content-container .content-scroll-container .inbox-footer-container .others-container span.link:hover:not(:has(span.icon:hover)) {
+    text-decoration: underline;
+}
+
+.main-container .content-container .content-scroll-container .inbox-footer-container .used-container span.progress, .main-container .content-container .content-scroll-container .inbox-footer-container .items-container span.progress, .main-container .content-container .content-scroll-container .inbox-footer-container .others-container span.progress {
+    border-radius: 8px;
+    background-color: #dadce0;
+    height: 6px;
+    width: 220px;
+}
+
+.main-container .content-container .content-scroll-container .inbox-footer-container .used-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 22px;
+}
+
+.main-container .content-container .content-scroll-container .inbox-footer-container .used-container span.link {
+    padding-top: 6px;
+    gap: 8px;
+}
+
+/*noinspection ALL*/
+.main-container .content-container .content-scroll-container .inbox-footer-container .used-container span.link .icon {
+    width: 18px;
+    height: 18px;
+    background-image: url(./assets/gmail/img/launch_gm_grey_18dp.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+}
+
+.main-container .content-container .content-scroll-container .inbox-footer-container .items-container {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 16px;
+}
+
+.main-container .content-container .content-scroll-container .inbox-footer-container .others-container {
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 16px;
+}
+
+.main-container .aside-container {
+    display: inline-flex;
+    margin: inherit;
+    padding: inherit;
+    width: 56px;
+    max-width: inherit;
+    min-width: fit-content;
+    height: inherit;
+    max-height: inherit;
+    min-height: inherit;
+}
+
+.main-container .aside-container .aside-items {
+    overflow: hidden;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    list-style: none;
+    padding: 8px 0 0 0;
+    margin: 0;
+    width: 100%;
+    max-width: inherit;
+    min-width: inherit;
+    height: fit-content;
+    max-height: fit-content;
+    min-height: fit-content;
+    gap: 14px;
+}
+
+.main-container .aside-container .aside-items .aside-item {
+    cursor: pointer;
+    padding: 0;
+    margin: inherit;
+    display: inherit;
+    width: 40px;
+    height: 40px;
+    user-select: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 50%;
+}
+
+.main-container .aside-container .aside-items .aside-item:hover {
+    background-color: rgba(60, 64, 67, 0.08);
+    outline: none;
+}
+
+/*noinspection ALL*/
+.main-container .aside-container .aside-items .aside-item.keep {
+    background-image: url(./assets/gmail/img/keep_2020q4v3_2x.png);
+}
+
+/*noinspection ALL*/
+.main-container .aside-container .aside-items .aside-item.tasks {
+    background-image: url(./assets/gmail/img/tasks_2021_2x.png);
+}
+
+/*noinspection ALL*/
+.main-container .aside-container .aside-items .aside-item.contacts {
+    background-image: url(./assets/gmail/img/contacts_2022_2x.png);
+}

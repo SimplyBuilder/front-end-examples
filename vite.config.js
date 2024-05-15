@@ -11,6 +11,13 @@ export default defineConfig({
     build: {
         manifest: false,
         outDir: '../build',
+        minify: 'terser',
+        terserOptions: {
+            mangle: false,
+        }
+    },
+    optimizeDeps: {
+        keepNames: true
     },
     css: {
         postcss: {

@@ -1,28 +1,38 @@
-'use strict';
+"use strict";
 
-import {CoreModule} from "@jamilservices/sb-core-module";
 import "@styles/main.scss";
+import {startBootstrap} from "@components/bootstrap/main.js";
+import { NotifyModule } from '@jamilservices/sb-module-notify';
+import { RouterModule } from '@jamilservices/sb-module-router';
 
-document.addEventListener("DOMContentLoaded", () => {
-    if(CoreModule && CoreModule.version.split(".")[0] >= 1) {
-        const SimplyBuilderContainerStruct = {
-            "element": "section",
-            "attr": {
-                "class": "view-container"
-            },
-            "dataset": {
-                "state": "simply-builder.main"
-            },
-            "children": [
-                {
+const router = RouterModule.instance();
+const menuActionEvent = NotifyModule.instance("menu-events");
 
-                    "element": "h2",
-                    "text": "Come soon"
-                }
-            ]
-        };
-        CoreModule.createFromStruct({
-            struct: SimplyBuilderContainerStruct
-        });
+
+router.register({
+    id: "home",
+    title: "SimplyBuilder Struct Examples"
+});
+router.register({
+    id: "gmail-example",
+    title: "SimplyBuilder Struct Examples - Gmail"
+});
+router.register({
+    id: "linkedin-example",
+    title: "SimplyBuilder Struct Examples - Linkedin"
+});
+menuActionEvent.subscribe({
+    id: "menu-item-navigate",
+    fn: data => {
+        const {link} = data;
+        if(link) router.navigate(link);
     }
 });
+router.events.subscribe({
+    id: "router-events",
+    fn: data => startBootstrap(data)
+});
+/*
+document.addEventListener("DOMContentLoaded", () => {
+    //console.log("DOMContentLoaded");
+});*/

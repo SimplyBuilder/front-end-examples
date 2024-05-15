@@ -1,0 +1,47 @@
+@use "@styles/base/mixin/areas";
+@use "@styles/base/mixin/fonts";
+@use "@styles/base/mixin/media";
+
+@use "@styles/view/shadow/loading";
+
+:host([data-state="canvas.main"]) {
+  @include areas.default-spaces;
+  @include areas.full-flex;
+  gap: 0;
+  text-size-adjust: none;
+  background-color: transparent;
+
+  * {
+    @include areas.default-spaces;
+    font-family: var(--font-sans);
+    font-size: var(--font-size-2);
+
+    svg {
+      pointer-events: none;
+    }
+
+    &, *:before, *:after {
+      color: inherit;
+      box-sizing: border-box;
+    }
+
+    *:before, *:after {
+      font-family: inherit;
+      font-size: inherit;
+    }
+  }
+
+  [data-state="view.main"] {
+    @include areas.default-spaces;
+    @include areas.full-inflex;
+    gap: 0;
+    *, *:before, *:after {
+      display: inline-flex;
+      gap: 0;
+    }
+    overflow: hidden;
+    flex-direction: column;
+    position: relative;
+    @include loading.main-container;
+  }
+}

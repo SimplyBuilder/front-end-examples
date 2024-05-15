@@ -1,0 +1,28 @@
+@use "@styles/base/mixin/themes";
+
+$portrait: (orientation: portrait);
+$media-xxs: 240px;
+$media-xs: 360px;
+$media-sm: 480px;
+$media-md: 768px;
+$media-lg: 1024px;
+$media-xl: 1440px;
+$media-xxl: 1920px;
+
+@media (min-width: $media-xxs) {
+  :where(html) {
+    font-size: var(--font-size-3);
+  }
+}
+
+@media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
+  @include themes.light;
+}
+@media (prefers-color-scheme: dark) {
+  @include themes.dark;
+}
+@media (prefers-reduced-motion: no-preference) {
+  :where(html) {
+    scroll-behavior: smooth;
+  }
+}

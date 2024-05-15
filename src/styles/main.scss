@@ -1,2 +1,114 @@
-@import "reset";
-@import "view";
+:where(html) {
+  &, body {
+    inline-size: 100%;
+    block-size: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+}
+body {
+  .app-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    inline-size: 100%;
+    block-size: 100%;
+    svg {
+      pointer-events: none;
+    }
+
+    header {
+      display: inline-flex;
+      position: fixed;
+      inline-size: 100%;
+      block-size: 3.75rem;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      color: #2c3e50;
+      overflow: hidden;
+      align-items: center;
+      justify-content: center;
+      box-shadow: inset 0 -1px 0 0 rgba(100, 121, 143, 0.122);
+      z-index: 2;
+      background-color: #fffaf0c9;
+      svg {
+        display: inline-flex;
+        block-size: 3rem;
+      }
+      ul {
+        display: inline-flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 0.5rem;
+        li {
+          cursor: pointer;
+          display: inline-flex;
+          font-size: 1rem;
+          text-transform: uppercase;
+          font-weight: bold;
+          background-color: #006769;
+          color: #ffffff;
+          padding-inline: 0.75rem;
+          padding-block: 0.5rem;
+          border: 0;
+          border-radius: 0.75rem;
+        }
+      }
+    }
+
+    [data-state="canvas.main"]{
+      display: inline-flex;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding-block-start: 3.85rem;
+      inline-size: 100%;
+      block-size: 100%;
+      z-index: 1;
+
+      .home-container {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        inline-size: 100%;
+        block-size: 100%;
+        align-items: center;
+        justify-content: center;
+      }
+      .gmail-container {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        max-height: 100%;
+        max-width: 100%;
+        background-color: #f6f8fc;
+        color: #202124;
+        font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+        overflow: hidden;
+      }
+
+      .linkedin-container {
+        display: flex;
+        inline-size: 100%;
+        block-size: 100%;
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
+        background-color: #f4f2eee6;
+        color: #333333e6;
+        max-block-size: 100%;
+        max-inline-size: 100%;
+        overflow: hidden;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+    }
+  }
+}

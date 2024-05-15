@@ -1,0 +1,52 @@
+@mixin main-container {
+  :where([data-state="loading.main"]) {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--loading-background-color);
+
+    :where(.container) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      inline-size: var(--loading-box-width);
+      padding-block-start: var(--loading-box-padding);
+      padding-block-end: var(--loading-box-padding);
+    }
+
+    :where(.progress-bar) {
+      flex-direction: row;
+      align-items: center;
+      overflow: hidden;
+      border: 0;
+      block-size: var(--loading-bar-box-height);
+      inline-size: var(--loading-bar-box-width);
+      padding-block: var(--loading-bar-box-padding);
+      padding-inline: var(--loading-bar-box-padding);
+      background-color: var(--loading-bar-color);
+      border-radius: var(--loading-bar-box-radius);
+    }
+    :where(.logo-container) {
+      inline-size: var(--loading-logo-width);
+      block-size: var(--loading-logo-height);
+      color: var(--loading-logo-color);
+      svg {
+        flex: 1;
+      }
+    }
+    :where([data-state="progress.loading"]) {
+      inline-size: calc(var(--loading-progress-width) * 1%);
+      min-inline-size: 5%;
+      max-inline-size: 100%;
+      background-color: var(--loading-progress-color);
+      block-size: var(--loading-progress-height);
+      border-radius: var(--loading-bar-box-radius);
+    }
+  }
+}
