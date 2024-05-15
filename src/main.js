@@ -5,7 +5,7 @@ import {startBootstrap} from "@components/bootstrap/main.js";
 import { NotifyModule } from '@jamilservices/sb-module-notify';
 import { RouterModule } from '@jamilservices/sb-module-router';
 
-const router = RouterModule.instance();
+const router = RouterModule.instance({home: '/front-end-examples/'});
 const menuActionEvent = NotifyModule.instance("menu-events");
 
 
