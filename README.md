@@ -1,25 +1,20 @@
-## SimplyBuilder GitHub Pages Starter Project Template   
+## Front End Examples by SimplyBuilder  
 
+### Page: https://simplybuilder.github.io/front-end-examples
 
-### go to: `settings/pages`
+#### Page generated from [SimplyBuilder/template-sb-github-pages](https://github.com/SimplyBuilder/template-sb-github-pages)
 
-### change sources to: `Github Actions`
+### Render: 
+- home: https://simplybuilder.github.io/front-end-examples/#/home
+- gmail: https://simplybuilder.github.io/front-end-examples/#/gmail-example
+- linkedin: https://simplybuilder.github.io/front-end-examples/#/linkedin-example
 
-### configure the custom domain if applicable.
+### Files:
+- home: https://github.com/SimplyBuilder/front-end-examples/tree/main/static/assets/home 
+- gmail: https://github.com/SimplyBuilder/front-end-examples/tree/main/static/assets/gmail 
+- linkedin: https://github.com/SimplyBuilder/front-end-examples/tree/main/static/assets/linkedin 
 
-### customize the file: `.github/workflows/deploy-to-pages.yml`
-
-By default, it comes to carry out the process **manually**, and can perform tag deployment, to facilitate rollback.      
-But if you prefer, you can uncomment **lines 6 and 7**, to carry out the automatic process during the push to the default branch.      
-**line 43** refers to the same directory described in **line 12** of `vite.config.js`
-
-
-### execute manual deployments, selecting branch or tag or track the progress of manual or automated deployments in the `Actions` tab of your repository
-
-### Now your project is live at the url configured in `settings/pages`. Change your files as you wish and make your deployments automatic or controlled.
-
-### Demo online: [https://simplybuilder.github.io/template-sb-github-pages/](https://simplybuilder.github.io/template-sb-github-pages/)
-
-
-## Deploy tag/branch error?
-### see `settings/environments` and customize your rules.
+### SimplyBuilder Modules:
+- "@jamilservices/sb-core-module": https://github.com/SimplyBuilder/sb-core/tree/main/core-module
+- "@jamilservices/sb-module-notify": https://github.com/SimplyBuilder/sb-module-notify
+- "@jamilservices/sb-module-router": https://github.com/SimplyBuilder/sb-module-router
